@@ -39,7 +39,7 @@ author-name: Llorenç Solé Franquesa
 # URL for the Image of the Author
 author-image: https://lh3.googleusercontent.com/nAe8uuFfHhJNSjSn_5-UhUDr_kYEV4S-ZzWCgrlx1pSFxIZB3h2uLbKhpuA8qMnqGkab6sQs_1V-UONNdt9Qazqwn9jaxT8938jaGq1suzU2M5zMVL1CjYp0hghQJoZwtoqfMYGjR5D9E5vSYHoDzCn5pz505bTSzPRDpJyqFwqoAeDBCzlVTD66rHpQLsT2CFO2VpJKu5HgmCDIrjuR3elMCucaJZmxtVhOBokKpW6CkSssGMbNon7JDM-cLffL9d9yV-3lCiYNz1FC75xxghYwu4y6l28oITkmGsul0qOWMjPyhuahY5wj3ACO5w67ipxHuEyvXDdjdYtdaEbxkvHQZo5_SPTLHtRzhGl6frT5RD99vyJ2VlrMSn7govLwLIwLJtBuAzsdXIFtkZpor7aVFU7SpUbCTLhQrZ1ZS4gCVwhHlrKQjgbpMgW7RRVMyp0tZgrfPkkylOC6fDzFxEyhGktDhwoCtVy7o0xGpnZ2UDZpjtBBldoMjxYh9Ia3KYEEVCvrsmVGR2LzSvcxxAGRtsVxmrMvC-X9qhMXSNNrSG5o945vmVJJUcEjaRXkICRKSsxagSkRKuldg6VCGV9zjNaAVbhSDpYyj0zjzQTKiPUKvmYBhANhFMghUu8AxH4rBhSMKliAfzrZYUZvx3L7cMVNqd4LVam9hHCYdMFw4E1NngCZMaNL5V7ChEajDPkvCK04k8W5h2jipBgeY0MM=s920-no?authuser=0
 # 60 Words About the Author
-author-about: I’m a tech lover guy who solve life’s problems with a little programming. Now, I’m focused on video game industry, specializing on graphics programmer. When I’m boring, I make fun doing some shaders.
+author-about: "TODO"
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/lowysole
 
@@ -73,9 +73,13 @@ defaults:
         - ""
   -
     scope:
-      type: 'pages'
+      type: 'projects'
     values:
-      layout: page
+      layout: project
+      post-image: ""
+      description: ""
+      tags:
+        - ""
 
 # Exclude
 exclude:
