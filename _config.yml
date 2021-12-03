@@ -11,7 +11,7 @@ title: Lowy Solé
 # Description of the Site
 description: My Personal Webpage
 # URL of Image of the Site
-site-image: /lowysole.github.io/assets/images/meta.jpg
+site-image: assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -54,7 +54,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+# permalink: "blog/:title"
 
 # Compress
 compress_html:
@@ -67,15 +67,6 @@ defaults:
       type: 'posts'
     values:
       layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'projects'
-    values:
-      layout: project
       post-image: ""
       description: ""
       tags:

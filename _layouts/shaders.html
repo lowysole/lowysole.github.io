@@ -19,7 +19,9 @@ layout: compress
         <div id="results-container"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
-            {% include shaders-card.html %}
+            {% if post.label[0] == "shader" %}
+                {% include shaders-card.html %}
+            {% endif %}
         {% endfor %}
         </div>
     </section>
