@@ -7,8 +7,28 @@
             <h1 class="title is-size-4-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
                 {{ post.description | truncate: 1000 | strip_html | strip_newlines | strip | escape }}
+                <br/>
                 <hr class="has-background-grey">
             </div>
+
+            {%- assign tags = post.tags -%}
+            {%- unless tags.size == 0 -%}
+            <p class="subtitle is-uppercase">
+              <i class="fas fa-tags"></i>
+              {% assign i = 0 %}
+              {% for tags in post.tags %}
+              <span class="tag is-link">{{post.tags[i]}}</span>
+              {% assign i = i | plus:1 %}
+              {% endfor %}
+            </p>
+            {%- endunless -%}
+            <br/>
+            {% unless post.link.size == 0 %}
+            <p class="subtitle">
+              <i class="fas fa-link"></i>
+              <a href={{post.link}} target="_blank">{{post.link-name}}</a>
+            {%- endunless -%}
+
         </div>
     </a>
 </div>
