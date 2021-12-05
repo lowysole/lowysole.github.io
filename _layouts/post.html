@@ -9,14 +9,14 @@ layout: compress
   {% include head.html %}
 </head>
 
-<body>
+<body style="background-color: #fffef7;">
   {% include navbar.html %}
 
   <section class="hero is-fullheight has-text-centered" id="post">
     <div class="hero-body">
       <div class="container">
         <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
-          <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
+          <h1 class="title is-uppercase has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
         </a>
         <hr class="has-background-black">
         <div class="columns is-variable is-5">
@@ -29,10 +29,7 @@ layout: compress
             {% unless page.description.size == 0 %}
             <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
-            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
-              </a>
-            </p>
+
             {%- assign tags = page.tags -%}
             {%- unless tags.size == 0 -%}
             <p class="subtitle is-uppercase">
@@ -44,6 +41,14 @@ layout: compress
               {% endfor %}
             </p>
             {%- endunless -%}
+
+            {% unless page.link.size == 0 %}
+            <p class="subtitle">
+              <i class="fas fa-link"></i>
+              {% assign link = page.link %}
+              <a href={{page.link}} target="_blank">{{page.link-name}}</a>
+            {%- endunless -%}
+
             {% assign words = content | number_of_words %}
             {%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
