@@ -6,8 +6,13 @@
         <div class="column has-text-left-desktop has-text-left-tablet">
             <h1 class="title is-uppercase is-size-4-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
-                {{ post.description | truncate: 1000 | strip_html | strip_newlines | strip | escape }}
+                {%- unless post.subtitle.size == 0 -%}
+                {{ post.subtitle | strip_html | strip_newlines | strip | escape }}
+                {%- endunless -%}
                 <br/>
+                {%- unless post.description.size == 0 -%}
+                {{ post.description | strip_html | strip_newlines | strip | escape }}
+                {%- endunless -%}
                 <hr class="has-background-grey">
             </div>
 
