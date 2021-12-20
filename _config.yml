@@ -36,7 +36,7 @@ disqus-shortname:
 # Name of the Author
 author-name: Llorenç Solé Franquesa
 # URL for the Image of the Author
-author-image: assets/images/lowy_profile.png
+author-image: ../../../../assets/images/lowy_profile.png
 # 60 Words About the Author
 author-about:
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
