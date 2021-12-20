@@ -17,7 +17,8 @@ label:
 - project
 ---
 
-<br/>
+Game created by <a href="https://www.linkedin.com/in/yago-boixeda/" target="_blank">Yago Boixeda</a> ,  <a href="https://www.linkedin.com/in/pol-p%C3%A9rez-granero-109818186/" target="_blank">Pol Pérez</a>,  <a href="https://www.linkedin.com/in/franc-porta/" target="_blank">Franc Porta</a>, and myself.
+
 <br/>
 
 In his darkest era, Francisco de Goya enclosed himself at home and painted macabre art on its walls. In this Slenderman-style game, you will impersonate Goya himself being trapped in a nightmare and chased by his own art, in a terrorific intent of recovering the control of his work.
