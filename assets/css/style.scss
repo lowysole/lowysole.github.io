@@ -84,7 +84,7 @@ a.navbar-item.is-active {
     }
 }
 
-#blog {
+#projects {
 
     .hero-body {
         padding: 3rem 0.25rem 1rem 0.25rem;
@@ -94,7 +94,75 @@ a.navbar-item.is-active {
         margin: 1.5rem auto;
     }
 
-    #blog-card {
+    #project-card {
+        background-color:rgba($color: #ffffff, $alpha: 0.25);
+        transition: all 0.25s ease;
+        margin-bottom: 0.5vmax;
+        transform: scale(0.9);
+        margin-right: 300px;
+        margin-left: 300px;
+        line-height: normal;
+        border-radius: 0.25rem;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            transform: scale(0.91);
+            -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        @media (max-width: 768px) {
+            transform: scale(1);
+            margin-bottom: 5vmax !important;
+
+            &:hover {
+                transform: scale(1.025);
+                margin-bottom: 5vmax !important;
+                -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+                -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+            }
+
+            .image {
+                padding-top: 50% !important;
+            }
+        }
+
+        .title {
+            margin: 0.5rem !important;
+        }
+
+        .content {
+            margin: 0.5rem;
+        }
+
+        .column {
+            display: grid;
+
+            .image {
+                border-radius: 0.25rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+#shaders {
+
+    .hero-body {
+        padding: 3rem 0.25rem 1rem 0.25rem;
+    }
+
+    .container {
+        margin: 1.5rem auto;
+    }
+
+    #shader-card {
         background-color:rgba($color: #ffffff, $alpha: 0.25);
         transition: all 0.25s ease;
         margin-bottom: 0.5vmax;
