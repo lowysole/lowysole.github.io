@@ -9,7 +9,7 @@ link-name: Source Code
 tags:
 - Distortion
 - Unity
-- HSLS
+- HLSL
 label:
 - shader
 ---
@@ -18,7 +18,7 @@ label:
 The objective of this shader is to distort the camera screen when an enemy is close to you or facing directly to your forward view direction, getting more distortion when the action time is increasing. 
 With it, we simulate the remaining life points you have, getting a fully dark screen when you are dead.
 
-It is designed in Unity, as an image effect shader. It's written in HSLS language, modifying the fragment function.
+It is designed in Unity, as an image effect shader. It's written in HLSL language, modifying the fragment function.
 
 To develop this shader, we use different inputs:
 * **Camera output screen**<br/>
