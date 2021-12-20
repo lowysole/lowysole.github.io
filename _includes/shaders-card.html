@@ -4,7 +4,7 @@
     </div>
     <a href="{{post.url | absolute_url}}">
         <div class="column has-text-left-desktop has-text-left-tablet">
-            <h1 class="title is-size-4-touch">{{post.title}}</h1>
+            <h1 class="title is-uppercase is-size-4-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
                 {%- unless post.subtitle.size == 0 -%}
                 {{ post.subtitle | strip_html | strip_newlines | strip | escape }}
@@ -27,6 +27,13 @@
               {% endfor %}
             </p>
             {%- endunless -%}
+            <br/>
+            {% unless post.link.size == 0 %}
+            <p class="subtitle">
+              <i class="fas fa-link"></i>
+              <a href={{post.link}} target="_blank">{{post.link-name}}</a>
+            {%- endunless -%}
+
         </div>
     </a>
 </div>
