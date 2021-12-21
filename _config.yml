@@ -46,8 +46,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "project/:title"
-permalink: "shaders/:title"
+permalink: "post/:title"
 
 # Compress
 compress_html:
