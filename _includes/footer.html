@@ -8,33 +8,33 @@
         <div class="container columns">
             <!--Name Section-->
             <div class="column has-text-left-desktop has-text-centered-mobile">
-                <a href="{{site.url}}{{site.baseurl}}/#about">
-                    <div class="columns">
-                        <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
-                            <figure class="image is-64x64">
+                <div class="columns">
+                    <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
+                        <figure class="image is-64x64">
+                            <a href="{{site.url}}{{site.baseurl}}/#about">
                                 <img class="is-rounded" src="{{site.author-image}}">
-                            </figure>
-                        </div>
-                        <div class="column is-marginless">
-                            <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
-                            <h6 class="has-text-grey">lowy.sole@gmail.com</h6>
-                            <div class="is-size-4">
-                                {% unless site.github_username ==  %}
-                                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
-                                {% endunless %}
-                                {% unless site.linkedin_username ==  %}
-                                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
-                                {% endunless %}
-                                {% unless site.twitter_username == %}
-                                <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
-                                {% endunless %}
-                                {% unless site.instagram_username ==  %}
-                                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
-                                {% endunless %}
-                            </div>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="column is-marginless">
+                        <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
+                        <h6 class="has-text-grey">{{site.email}}</h6>
+                        <div class="is-size-4">
+                            {% unless site.github_username ==  %}
+                            <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
+                            {% endunless %}
+                            {% unless site.linkedin_username ==  %}
+                            <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
+                            {% endunless %}
+                            {% unless site.twitter_username == %}
+                            <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
+                            {% endunless %}
+                            {% unless site.instagram_username ==  %}
+                            <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
+                            {% endunless %}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
 
             <!--Link Section-->
