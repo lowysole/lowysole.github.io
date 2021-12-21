@@ -9,13 +9,13 @@ baseurl:
 # Title of the Site
 title: Lowy Solé
 # Description of the Site
-description: My Personal Webpage
+description: Personal Webpage
 # URL of Image of the Site
-site-image: assets/images/meta.jpg
+site-image: /assets/images/logo.png
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Game Programmer, Shaders, Engine Programmer, Lowy, Solé, Llorenç
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /assets/images/logo.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
