@@ -42,11 +42,11 @@ a.navbar-item.is-active {
 #hero {
     background: rgb(0, 0, 0);
 
-    height: 1000px;
+    height: 800px;
     width: 100%;
 
     .video {
-        height: 1000px;
+        height: 800px;
         width: 100%;
         object-fit: cover; // use "cover" to avoid distortion
         position: absolute;
@@ -168,8 +168,8 @@ a.navbar-item.is-active {
         transition: all 0.25s ease;
         margin-bottom: 0.5vmax;
         transform: scale(0.9);
-        margin-right: 300px;
-        margin-left: 300px;
+        margin-right: 10%;
+        margin-left: 10%;
         line-height: normal;
         border-radius: 0.25rem;
         -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -236,8 +236,8 @@ a.navbar-item.is-active {
         transition: all 0.25s ease;
         margin-bottom: 0.5vmax;
         transform: scale(0.9);
-        margin-right: 300px;
-        margin-left: 300px;
+        margin-right: 10%;
+        margin-left: 10%;
         line-height: normal;
         border-radius: 0.25rem;
         -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -376,10 +376,8 @@ a.navbar-item.is-active {
 
 #post {
 
-    @media (min-width: 768px) {
-        margin-left: 500px;
-        margin-right: 500px;
-    }
+    margin-left: 10%;
+    margin-right: 10%;
     a {
         text-decoration: underline;
     }

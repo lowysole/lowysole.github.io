@@ -39,7 +39,7 @@
 
             <!--Link Section-->
             <div class="column has-text-white">
-                <h3>Site Pages</h3>
+                <h3 class= has-text-centered-mobile>Site Pages</h3>
                 <li>
                     <a href="{{site.url}}{{site.baseurl}}/#about">About</a> 
                 </li>
@@ -53,7 +53,7 @@
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
-                <h3>Recent Posts</h3>
+                <h3 class= has-text-centered-mobile>Recent Posts</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>
                     <a href="{{post.url | absolute_url}}">{{post.title}}</a>

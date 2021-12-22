@@ -23,7 +23,8 @@ It is designed in Unity, as an image effect shader. It's written in HLSL languag
 To develop this shader, we use different inputs:
 * **Camera output screen**<br/>
   * We take the final render image from the camera and we apply the filter using the function:<br/>
-  ```  
+
+  ```cpp  
   private void OnRenderImage(RenderTexture source, RenderTexture destination) { 
         Graphics.Blit(source, destination, material);
   }

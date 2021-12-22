@@ -24,7 +24,7 @@ For this shader, we create another Pass in the SubShader section that we will ap
 * Outline Color
 
 In the vertex function, we have to scale the geometry of the object with the Outline Value:
-```
+```cpp
 float4 Outline(float4 vertexPos, float outValue)
 {
     float4x4 scale = float4x4
@@ -50,7 +50,7 @@ v2f vert (appdata v)
 <br/>
 
 And for the fragment function, we will send the Outline Color instead of the color of the object texture:
-```
+```cpp
 fixed4 frag (v2f i) : SV_Target
 {
     fixed4 col = tex2D(_MainTex, i.uv);
