@@ -1,7 +1,7 @@
 ---
 title: Distortion Shader
 layout: post
-post-image: "../../../../assets/images/shaders/Distortion/distortion_main.gif"
+post-image: "/assets/images/shaders/Distortion/distortion_main.gif"
 subtitle: 
 description: A basic distortion shader created for Goya's Nightmare videogame
 link: https://github.com/FrancPS/GoyaNightmare/blob/main/GoyaNightmare/Assets/Shaders/S_PostProcess.shader
@@ -32,16 +32,16 @@ To develop this shader, we use different inputs:
 * **Noise texture**<br/>
   * A noisy texture to modify the UV coordinates from the camera image. We will use a random noise based on two different patterns to gain more randomness, using the RGB channels of the texture. 
 <p align="center">
-  <img src="../../../../assets/images/shaders/Distortion/noise_texture.gif" alt="NoiseTexture" width="250"/>
-  <img src="../../../../assets/images/shaders/Distortion/noise_code.png" alt="NoiseCode" width="550"/>
+  <img src="/assets/images/shaders/Distortion/noise_texture.gif" alt="NoiseTexture" width="250"/>
+  <img src="/assets/images/shaders/Distortion/noise_code.png" alt="NoiseCode" width="550"/>
 </p>
 
 * **Distortion and darkness**<br/>
   * A float to modify the factor of distortion and darkness of the shader.
 
 <p align="center">
-  <img src="../../../../assets/images/shaders/Distortion/distortion_factor.gif" alt="DistortionFactor" width="600"/>
-  <img src="../../../../assets/images/shaders/Distortion/darkness_factor.gif" alt="DarknessFactor" width="600"/>
+  <img src="/assets/images/shaders/Distortion/distortion_factor.gif" alt="DistortionFactor" width="600"/>
+  <img src="/assets/images/shaders/Distortion/darkness_factor.gif" alt="DarknessFactor" width="600"/>
 </p>
 
 <br/>

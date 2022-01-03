@@ -1,7 +1,7 @@
 ---
 title: Goya's Nightmare
 layout: post
-post-image: "../../../../assets/images/projects/Goya/menu.png"
+post-image: "/assets/images/projects/Goya/menu.png"
 subtitle: Slenderman-style game inspired in Goya's dark era paintings.
 description: Game created for the IV Game Jam Cultura Abierta 
 link: https://franc-porta.itch.io/goyas-nightmare
@@ -50,10 +50,10 @@ Fang, an experienced mercenary assassin, and 0-Nimaru, her brawling companion, h
 #### Images
 
 <p align="center">
-<img src="../../../../assets/images/projects/Goya/saferoom.png" alt="Safe Room" width="500"/>
-<img src="../../../../assets/images/projects/Goya/saturno.png" alt="Saturno" width="500"/>
-<img src="../../../../assets/images/projects/Goya/collectable.png" alt="Collectable" width="500"/>
-<img src="../../../../assets/images/projects/Goya/map.png" alt="Map" width="500"/>
+<img src="/assets/images/projects/Goya/saferoom.png" alt="Safe Room" width="500"/>
+<img src="/assets/images/projects/Goya/saturno.png" alt="Saturno" width="500"/>
+<img src="/assets/images/projects/Goya/collectable.png" alt="Collectable" width="500"/>
+<img src="/assets/images/projects/Goya/map.png" alt="Map" width="500"/>
 </p>
 
 <br/>

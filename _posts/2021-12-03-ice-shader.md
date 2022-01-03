@@ -15,7 +15,7 @@ label:
 ---
 
 
-This shader simulates a volumetric ice. There are two different parameters that can be changed to achieve the desired result:
+This shader simulates volumetric ice. Two different parameters can be changed to achieve the desired result:
 * The Surface Texture is a normal map that recreates the texture in the surface of the material.
 * The depth factor allows you to increase the depth of the ice texture related to the surface.
 
