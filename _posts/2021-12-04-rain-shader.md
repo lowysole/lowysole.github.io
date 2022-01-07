@@ -2,10 +2,10 @@
 title: Rain Drop Effect
 layout: post
 post-image: "/assets/images/shaders/Rain/rain_shader.gif"
-subtitle: 
+subtitle: ""
 description: Complete rain shader with drops, drips, ripples and puddles
-link: 
-link-name: 
+link: ""
+link-name: ""
 tags:
 - Rain 
 - Unreal

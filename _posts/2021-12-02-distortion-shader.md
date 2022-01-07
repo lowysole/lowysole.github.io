@@ -2,9 +2,9 @@
 title: Distortion Shader
 layout: post
 post-image: "/assets/images/shaders/Distortion/distortion_main.gif"
-subtitle: 
+subtitle: ""
 description: A basic distortion shader created for Goya's Nightmare videogame
-link: https://github.com/FrancPS/GoyaNightmare/blob/main/GoyaNightmare/Assets/Shaders/S_PostProcess.shader
+link: "https://github.com/FrancPS/GoyaNightmare/blob/main/GoyaNightmare/Assets/Shaders/S_PostProcess.shader"
 link-name: Source Code
 tags:
 - Distortion

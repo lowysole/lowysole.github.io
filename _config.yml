@@ -7,15 +7,17 @@ url: 'https://lowysole.github.io'
 baseurl: 
 
 # Title of the Site
-title: Lowy Solé
+title: Llorenç Solé Franquesa
 # Description of the Site
-description: Personal Webpage
+description: Game Programmer
 # URL of Image of the Site
 site-image: /assets/images/logo.png
 # Keywords of the Site
 site-keywords: Game Programmer, Shaders, Engine Programmer, Lowy, Solé, Llorenç
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/logo.png
+# Background video
+bgimage: /assets/images/shaders/Rain/rain_shader.gif
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.

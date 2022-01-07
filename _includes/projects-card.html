@@ -13,9 +13,8 @@
                 {%- unless post.description.size == 0 -%}
                 {{ post.description | strip_html | strip_newlines | strip | escape }}
                 {%- endunless -%}
-                <hr class="has-background-grey">
             </div>
-
+            <br/>
             {%- assign tags = post.tags -%}
             {%- unless tags.size == 0 -%}
             <p class="subtitle is-uppercase">
@@ -33,7 +32,8 @@
               <i class="fas fa-link"></i>
               <a href={{post.link}} target="_blank">{{post.link-name}}</a>
             {%- endunless -%}
-
+            <br/>
+            <br/>
         </div>
     </a>
 </div>

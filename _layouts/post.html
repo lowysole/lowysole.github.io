@@ -27,10 +27,10 @@ layout: compress
           </div>
           <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
             {% unless page.subtitle.size == 0 %}
-            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.subtitle | strip | strip_html | strip_newlines }}</p>
+            <p id="description" class="content has-text-weight-medium is-uppercase">{{page.subtitle | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
             {% unless page.description.size == 0 %}
-            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
+            <p id="description" class="content has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
 
             {%- assign tags = page.tags -%}
@@ -45,19 +45,12 @@ layout: compress
             </p>
             {%- endunless -%}
 
-            {% unless page.link.size == 0 %}
-            <p class="subtitle">
+            {% if page.link != "" %}
+            <p class="content">
               <i class="fas fa-link"></i>
               {% assign link = page.link %}
               <a href={{page.link}} target="_blank">{{page.link-name}}</a>
-            {%- endunless -%}
-
-            {% assign words = content | number_of_words %}
-            {%- unless content.size == 0 -%}
-            <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
-                {{ words | divided_by:180 }} min
-              </b>READ</p>
-            {%- endunless -%}
+            {% endif %}
           </div>
         </div>
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">

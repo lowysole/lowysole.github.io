@@ -2,9 +2,9 @@
 title: Outline Shader
 layout: post
 post-image: "/assets/images/shaders/Outline/outline_shader.gif"
-subtitle: 
+subtitle: ""
 description: A basic outline shader created for Goya's Nightmare videogame
-link: https://github.com/FrancPS/GoyaNightmare/blob/main/GoyaNightmare/Assets/Shaders/S_Outline.shader
+link: "https://github.com/FrancPS/GoyaNightmare/blob/main/GoyaNightmare/Assets/Shaders/S_Outline.shader"
 link-name: Source Code
 tags:
 - Utils

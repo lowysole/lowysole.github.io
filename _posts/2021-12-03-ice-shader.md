@@ -2,10 +2,10 @@
 title: Volumetric Ice
 layout: post
 post-image: "/assets/images/shaders/Volumetric_ice/volumetric_ice.gif"
-subtitle: 
+subtitle: ""
 description: Material simulating volumetric ice
-link: 
-link-name: 
+link: ""
+link-name: ""
 tags:
 - Volumetric
 - Unreal
